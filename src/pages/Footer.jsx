@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="pt-3 lg:pt-10 pl-6">
           &copy; 2025 Jobpilot &#183; Job Portal. All rights Reserved
         </div>
-        <div className="flex items-center gap-4 h-max pt-3 lg:pt-10 pr-6">
+        <div className="flex items-center gap-4 h-max lg:pt-10 pr-6">
           {[
             <IconBrandFacebook />,
             <IconBrandYoutube />,
