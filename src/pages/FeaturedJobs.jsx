@@ -37,8 +37,8 @@ const FeaturedJobs = () => {
         Featured Job
       </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {data.map((job) => (
-          <Card className="bg-white/90 flex-col items-start">
+        {data.map((job, index) => (
+          <Card key={index} className="bg-white/90 flex-col items-start">
             <h1 className="font-semibold text-xl">{job.jobname}</h1>
             <div className="flex items-center gap-4 text-neutral-400">
               <span className="uppercase bg-green-100 text-green-700 font-bold text-sm px-2">
